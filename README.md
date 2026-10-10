@@ -9,3 +9,4 @@ In TC2, the thread-safe static counter correctly reached 20,000, matching the no
 The percentage difference ranged from 14.36% to 33.66%, with an average of approximately 25.05%. This demonstrates that unsynchronized shared-variable updates can cause lost increments. Different thread scheduling and execution timing can produce different results across runs.
 
 The experiment also demonstrates that a static variable is shared across objects, but it is not automatically thread-safe.
+<img width="1337" height="425" alt="Screenshot 2026-10-10 232457" src="https://github.com/user-attachments/assets/1172c70e-2f44-48af-a039-5926582298fb" />
